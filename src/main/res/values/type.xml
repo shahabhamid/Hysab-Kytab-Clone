@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ItemType">
+        <item>Eggs</item>
+        <item>Banana</item>
+        <item>Milk</item>
+        <item>Earrings</item>
+        <item>Set</item>
+        <item>NosePin</item>
+        <item>Bangles</item>
+        <item>Bracelet</item>
+        <item>Ring</item>
+        <item>Crown</item>
+        <item>Pendant</item>
+        <item>Anklet</item>
+        <item>Locket</item>
+        <item>Locket Set</item>
+        <item>Karray</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/nav_view_expense"
+        android:name="com.e.management.ui.viewexpence.ViewExpenses"
+        android:label="View Expenses"
+        tools:layout="@layout/fragment_view_expense" />
+
+    <fragment
+        android:id="@+id/nav_addexpence"
+        android:name="com.e.management.ui.addexpence.AddExpense"
+        android:label="Add Expenses"
+        tools:layout="@layout/fragment_add_expense" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.e.management.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+
+    <fragment
+        android:id="@+id/navigation_money"
+        android:name="com.e.management.bottom.ui.money.MoneyFragment"
+        android:label="Money"
+        tools:layout="@layout/fragment_money" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.e.management.bottom.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_savings"
+        android:name="com.e.management.bottom.ui.savings.SavingsFragment"
+        android:label="Savings"
+        tools:layout="@layout/fragment_savings" />
+
+    <fragment
+        android:id="@+id/navigation_insight"
+        android:name="com.e.management.bottom.ui.insight.InsightFragment"
+        android:label="Insight"
+        tools:layout="@layout/fragment_insight" />
+
+</navigation>
