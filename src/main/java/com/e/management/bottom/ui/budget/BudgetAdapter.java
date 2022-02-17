@@ -21,7 +21,7 @@ import java.util.ArrayList;
 
 public class BudgetAdapter extends RecyclerView.Adapter<BudgetAdapter.viewHolder> {
 
-
+//chcecking for git
     ArrayList<BudgetData> list;
     Context context;
     Activity activity;
