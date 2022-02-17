@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class BudgetClass {
-
+//
     RecyclerView budgetRecyclerView;
     BudgetAdapter budgetAdapter;
     ArrayList<BudgetData> budgetList = new ArrayList<>();
